@@ -40,12 +40,12 @@ This app allows users to:
 ```bash
 Playwright_MiniProject_TodoApplication/
 │── .github/
-│   └── workflows/          # GitHub Actions workflow files
+│   └── workflows/         
 │
-│── tests/                  # Playwright test scripts
+│── tests/                 
 │
-│── playwright.config.js    # Playwright configuration file
-│── package.json            # Project dependencies and scripts
+│── playwright.config.js   
+│── package.json            
 │── package-lock.json
 │── .gitignore
 ```
@@ -162,31 +162,12 @@ This file can be used to configure:
 * Reporter settings
 * Parallel execution options
 
-## GitHub Actions / CI
 
-This project includes a `.github/workflows` folder, which can be used to run Playwright tests automatically using **GitHub Actions** whenever code is pushed or updated.
 
-## Learning Outcomes
+## Conclusion
 
-Through this mini project, the following automation testing concepts are practiced:
+This Playwright mini project demonstrates how end-to-end testing can be performed on a Todo application using modern browser automation tools. It is a good beginner-friendly project for understanding Playwright fundamentals and UI automation workflows.
 
-* Playwright project setup
-* Writing UI automation scripts
-* Locators and assertions
-* Test execution using Playwright Test Runner
-* End-to-end workflow validation
-* Basic CI integration with GitHub Actions
-
-## Future Enhancements
-
-This project can be extended further by adding:
-
-* Page Object Model (POM) structure
-* More validations for filters like **All / Active / Completed**
-* Data-driven test scenarios
-* Cross-browser execution
-* Screenshot capture on failure
-* Advanced reporting integration
 
 ## Author
 
@@ -194,6 +175,4 @@ This project can be extended further by adding:
 
 GitHub: https://github.com/lavanya-jalla
 
-## Conclusion
-
-This Playwright mini project demonstrates how end-to-end testing can be performed on a Todo application using modern browser automation tools. It is a good beginner-friendly project for understanding Playwright fundamentals and UI automation workflows.
+Playwright Learner
